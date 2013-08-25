@@ -1,4 +1,4 @@
-zsmyphp
+zsmyphp框架开发小项目：wxhome
 =======
 
 zsmyphp是一款PHP语言开发的MVC框架。

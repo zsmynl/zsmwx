@@ -1,0 +1,32 @@
+<html>
+    <head>
+        <title>添加新闻</title>
+        <meta http-equiv="content-type" content="text/html; charset=gbk">
+        <script src="/common/ueditor/ueditor.config.js" language="javascript" type="text/javascript"></script>
+        <script src="/common/ueditor/ueditor.all.min.js" language="JavaScript" type="text/javascript"></script>
+        
+    </head>
+ <body>
+用户名：<{$user['name']}>&nbsp;&nbsp;|<a href="/index.php?controller=member&action=talklist">新闻列表</a>|<a href="/index.php?controller=member&action=loginout">退出</a><br/>
+添加新闻：
+<hr/>
+<form action="/index.php?controller=member&action=add" method="post" enctype="multipart/form-data">
+    新闻标题：<input type="text" name="title" style="width:400px;"/> <br/><br/>
+    新闻内容：
+    <textarea name="content" id = "myEditor" ></textarea>
+    <script type="text/javascript">
+    var editor = new UE.ui.Editor();
+    editor.render("myEditor");
+    </script>
+    <input type="hidden" name="id" value="<{$user['id']}>" />
+    <select name="lid">
+        <option selected="selected" value="0">公开</option>
+        <option value="1">隐私</option>
+    </select>
+    &nbsp;&nbsp;
+    <input type="submit" name="submit" value="提交"/>
+</form>
+
+</body>
+    
+</html>

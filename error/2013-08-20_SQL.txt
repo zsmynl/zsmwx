@@ -1,0 +1,5 @@
+错误SQL语句：
+SELECT * FROM `wx_user` WHERE `name` = ''
+客户IP:127.0.0.1
+时间 :2013-08-20 05:57:26
+

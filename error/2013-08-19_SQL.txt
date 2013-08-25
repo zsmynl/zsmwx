@@ -1,0 +1,105 @@
+错误SQL语句：
+INSERT INTO  () VALUES ()
+客户IP:127.0.0.1
+时间 :2013-08-19 07:24:39
+
+SQL语句错误：
+
+客户IP:127.0.0.1
+时间 :2013-08-19 07:59:03
+
+SQL语句错误：
+
+客户IP:127.0.0.1
+时间 :2013-08-19 07:59:58
+
+SQL语句错误：
+
+客户IP:127.0.0.1
+时间 :2013-08-19 08:00:00
+
+SQL语句错误：
+
+客户IP:127.0.0.1
+时间 :2013-08-19 08:00:18
+
+SQL语句错误：
+
+客户IP:127.0.0.1
+时间 :2013-08-19 08:00:19
+
+SQL语句错误：
+
+客户IP:127.0.0.1
+时间 :2013-08-19 08:00:20
+
+SQL语句错误：
+
+客户IP:127.0.0.1
+时间 :2013-08-19 08:00:21
+
+错误SQL语句：
+INSERT INTO `wx_user` (`id`,`name`,`password`,`group`) VALUES (NULL,'','','0')
+客户IP:127.0.0.1
+时间 :2013-08-19 08:01:14
+
+错误SQL语句：
+INSERT INTO `wx_user` (`id`,`name`,`password`,`group`) VALUES (NULL,'','','0')
+客户IP:127.0.0.1
+时间 :2013-08-19 08:01:17
+
+错误SQL语句：
+INSERT INTO `wx_user` (`name`,`password`,`group`) VALUES ('','','0')
+客户IP:127.0.0.1
+时间 :2013-08-19 08:01:56
+
+错误SQL语句：
+INSERT INTO `wx_user` (`name`,`password`,`group`) VALUES ('','','0')
+客户IP:127.0.0.1
+时间 :2013-08-19 08:01:58
+
+错误SQL语句：
+INSERT INTO `wx_user` (`name`,`password`,`group`) VALUES ('','','0')
+客户IP:127.0.0.1
+时间 :2013-08-19 08:01:59
+
+错误SQL语句：
+INSERT INTO `wx_user` (`name`,`password`,`group`) VALUES ('','','0')
+客户IP:127.0.0.1
+时间 :2013-08-19 08:02:36
+
+错误SQL语句：
+INSERT INTO `wx_user` (`name`,`password`,`group`) VALUES ('','','0')
+客户IP:127.0.0.1
+时间 :2013-08-19 08:02:41
+
+错误SQL语句：
+INSERT INTO `wx_user` (`id`,`name`,`password`,`group`) VALUES ('','','','0')
+客户IP:127.0.0.1
+时间 :2013-08-19 08:03:09
+
+错误SQL语句：
+INSERT INTO `wx_user` (`id`,`name`,`password`,`group`) VALUES ('','','','0')
+客户IP:127.0.0.1
+时间 :2013-08-19 08:03:10
+
+错误SQL语句：
+INSERT INTO `wx_user` (`id`,`name`,`password`,`group`) VALUES ('','','','0')
+客户IP:127.0.0.1
+时间 :2013-08-19 08:03:34
+
+错误SQL语句：
+INSERT INTO `wx_user` (`id`,`name`,`password`,`group`) VALUES (NULL,'','','0')
+客户IP:127.0.0.1
+时间 :2013-08-19 08:05:32
+
+错误SQL语句：
+INSERT INTO `wx_user` (`id`,`name`,`password`,`group`) VALUES (NULL,'张孟',md5(shimeng),'1')
+客户IP:127.0.0.1
+时间 :2013-08-19 09:33:14
+
+错误SQL语句：
+INSERT INTO `wx_user` (`id`,`name`,`password`,`group`) VALUES (NULL,'张孟','md5('shimeng')','1')
+客户IP:127.0.0.1
+时间 :2013-08-19 09:34:31
+

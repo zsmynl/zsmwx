@@ -1,0 +1,20 @@
+<html>
+    <head>
+        <title>内容列表</title>
+        <meta http-equiv="content-type" content="text/html; charset=gbk"> 
+    </head>
+ <body>
+用户名：<{$user['name']}>&nbsp;&nbsp;|<a href="/index.php?controller=member&action=add">添加新闻</a>|<a href="/index.php?controller=member&action=loginout">退出</a><br/>
+新闻列表：
+<hr/>
+    <{section name=news loop=$newslist}>
+    
+    标题：<a href="/index.php?controller=index&action=article&id=<{$newslist[news].id}>"><{$newslist[news].title}></a><br/>
+    
+    <{/section}>
+    <hr/>
+
+        
+ </body>
+    
+</html>

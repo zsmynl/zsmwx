@@ -1,0 +1,40 @@
+<html>
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=gbk">
+    <meta name="Keywords" content="">
+    <meta name="Description" content="">
+    <title>登录</title>
+<style type="text/css">
+<!--
+.must {color: #FF0000;width: 40px;}
+.must1{width: 100px;}
+.must2{width: 200px;}
+-->
+</style>
+</head>
+<body style="text-align:center">
+    欢迎登录！|<a href="/index.php?controller=member&action=register">注册</a>
+    <br/><br/><br/>
+    <form  action="/index.php?controller=member&action=login" method="post" >
+   <table width="600" height="211" border="1" cellspacing="1">
+  
+  <tr>
+    <td class="must" >*</td>
+    <td class="must1">用户名：<input name="uname" type="text" size="30"/></td>
+    <td class="must2"></td>
+  </tr>
+  <tr>
+    <td class="must">*</td>
+    <td>密码：<input name="password" type="password" size="30"/></td>
+    <td>&nbsp;</td>
+  </tr>
+  <tr>
+    <td></td>
+    <td><input type="submit" name="submit" value="登录"/></td>
+    <td>&nbsp;</td>
+  </tr>
+</table>
+</form>
+ 
+</body>
+</html>
